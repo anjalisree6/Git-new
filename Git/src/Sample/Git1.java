@@ -1,5 +1,6 @@
 package Sample;
 
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class Git1 {
@@ -8,7 +9,12 @@ public class Git1 {
 	public void test()
 	{
 		System.out.println("hello");
+		
 	}
-	
+	@BeforeTest
+	public void end()
+	{
+		System.out.println("hello");
+	}
 	
 }
