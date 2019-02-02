@@ -34,6 +34,7 @@ public class Git {
 	@AfterTest 
 	public void end()
 	{
+		d1.close();
 		System.out.println("innominds");
 	}
 
